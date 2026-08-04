@@ -999,13 +999,11 @@ textarea {
   width: min(100%, 250px);
   aspect-ratio: 1 / 1.13;
   margin-inline: auto;
-  border: 3px solid rgba(255, 255, 255, 0.9);
   border-radius: 50%;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.06);
-  box-shadow:
-    0 24px 55px rgba(0, 0, 0, 0.38),
-    0 0 0 8px rgba(255, 255, 255, 0.025);
+  border: none;
+  background: transparent;
+  box-shadow: 0 20px 40px rgba(0,0,0,.35)
 }
 
 .owner-portrait img {
