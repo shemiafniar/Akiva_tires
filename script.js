@@ -59,49 +59,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  const initPhotoSlider = () => {
-    const slides = Array.from(document.querySelectorAll('.slide'));
-    const prevButton = document.querySelector('.slider-prev');
-    const nextButton = document.querySelector('.slider-next');
-    const dots = Array.from(document.querySelectorAll('.slider-dot'));
+  const initHeroBackgroundSlider = () => {
+    const slides = Array.from(document.querySelectorAll('.hero-bg-slide'));
     let currentIndex = 0;
-    let autoplay;
 
-    if (!slides.length || !prevButton || !nextButton || !dots.length) return;
+    if (!slides.length) return;
 
     const setSlide = (index) => {
       currentIndex = (index + slides.length) % slides.length;
       slides.forEach((slide, idx) => slide.classList.toggle('active', idx === currentIndex));
-      dots.forEach((dot, idx) => dot.classList.toggle('active', idx === currentIndex));
     };
-
-    const nextSlide = () => setSlide(currentIndex + 1);
-    const prevSlide = () => setSlide(currentIndex - 1);
-    const resetAutoplay = () => {
-      clearInterval(autoplay);
-      autoplay = setInterval(nextSlide, 3200);
-    };
-
-    prevButton.addEventListener('click', () => {
-      prevSlide();
-      resetAutoplay();
-    });
-
-    nextButton.addEventListener('click', () => {
-      nextSlide();
-      resetAutoplay();
-    });
-
-    dots.forEach((dot, idx) => dot.addEventListener('click', () => {
-      setSlide(idx);
-      resetAutoplay();
-    }));
 
     setSlide(0);
-    resetAutoplay();
+    setInterval(() => setSlide(currentIndex + 1), 3800);
   };
 
-  initPhotoSlider();
+  initHeroBackgroundSlider();
 
   // Light-weight back to top visibility
   const floatingCall = document.querySelector('.floating-call');

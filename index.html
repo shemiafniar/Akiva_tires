@@ -60,8 +60,7 @@
             </button>
             <ul id="nav-list" class="nav-list">
               <li><a href="#services">שירותים</a></li>
-              <li><a href="#why">למה לבחור בנו</a></li>
-              <li><a href="#process">איך זה עובד</a></li>
+              <li><a href="#about">אודותינו</a></li>
               <li><a href="#reviews">המלצות</a></li>
               <li><a href="#contact">צור קשר</a></li>
             </ul>
@@ -69,7 +68,16 @@
         </div>
 
         <div class="header-actions">
-          <a class="button button-call" href="tel:0506658570" aria-label="טלפון">טלפון</a>
+          <a class="button button-call button-icon" href="tel:0506658570" aria-label="טלפון">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M22 16.92v3.07a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2 4.18 2 2 0 0 1 4 2h3.09a2 2 0 0 1 2 1.72c.12.84.33 1.66.63 2.45a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.65-1.18a2 2 0 0 1 2.11-.45c.8.29 1.62.5 2.45.63A2 2 0 0 1 22 16.92z"/>
+            </svg>
+          </a>
+          <a class="button button-ghost button-icon" href="https://wa.me/972506658570" target="_blank" rel="noreferrer" aria-label="וואטסאפ">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M12.04 2C6.48 2 2 6.48 2 12.04c0 1.96.51 3.88 1.49 5.58L2 22l4.54-1.41A9.95 9.95 0 0 0 12.04 22c5.56 0 10.04-4.48 10.04-9.96S17.6 2 12.04 2zm5.4 13.88c-.23.65-1.35 1.23-1.86 1.31-.47.08-1.05.12-2.01-.13-1.7-.38-4.25-2.03-5.54-3.6-.5-.66-.9-1.44-.73-2.19.18-.74 1.05-1.2 1.84-1.17.45.02.92.18 1.34.32.35.12.7.28 1.05.42.31.12.59.04.82-.12.18-.12.74-.88.94-1.18.18-.3.04-.56-.1-.74-.15-.19-.78-1.88-1.07-2.58-.28-.67-.56-.58-.78-.59-.2-.01-.44-.01-.68-.01-.24 0-.62.09-.94.44-.32.36-1.2 1.17-1.2 2.85s1.23 3.31 1.4 3.54c.18.24 2.42 3.7 5.86 5.18.82.35 1.46.56 1.96.72.82.27 1.57.23 2.16.14.66-.09 1.35-.55 1.54-1.08.19-.54.19-1.01.13-1.11-.06-.1-.24-.16-.5-.28z"/>
+            </svg>
+          </a>
         </div>
       </div>
     </header>
@@ -77,16 +85,17 @@
     <main id="main">
       <section class="hero" id="top" aria-label="שירות צמיגים נייד ובמוסך">
         <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-background" aria-hidden="true">
+          <div class="hero-bg-slide active" style="background-image:url('pexels-enis-yavuz-3516387-5260115.jpg');"></div>
+          <div class="hero-bg-slide" style="background-image:url('pexels-gustavo-fring-6870311.jpg');"></div>
+          <div class="hero-bg-slide" style="background-image:url('pexels-gustavo-fring-6870322.jpg');"></div>
+          <div class="hero-bg-slide" style="background-image:url('pexels-gustavo-fring-6870330.jpg');"></div>
+          <div class="hero-bg-slide" style="background-image:url('pexels-gustavo-fring-6870331.jpg');"></div>
+        </div>
 
         <div class="container hero-content">
-          <p class="kicker">צמיגים בזכרון יעקב ובאזור</p>
-          <h1>צמיגי עקיבא מגיעים אליכם כדי שתיסעו בשקט</h1>
-          <p class="lead">תיקון פנצ'ר, החלפת צמיגים, איזון גלגלים וכיוון פרונט — בחנייה, בבית או בדרך. לא נמכור לכם צמיגים שאינם נחוצים.</p>
-
-          <div class="hero-ctas">
-            <a class="button button-primary" href="tel:0506658570" aria-label="טלפון">טלפון</a>
-            <a class="button button-ghost" href="https://wa.me/972506658570" target="_blank" rel="noreferrer" aria-label="וואטסאפ">וואטסאפ</a>
-          </div>
+          <h1>הדרך הבטוחה מתחילה בצמיגים הנכונים.</h1>
+          <p class="lead">ניסיון, איכות ושירות ללא פשרות – עם מותגי הצמיגים המובילים ופתרונות מקצועיים לכל צורך.</p>
 
           <div class="hero-badges">
             <span>בדיקת בטיחות חינם בכל ביקור</span>
@@ -95,124 +104,122 @@
         </div>
       </section>
 
-      <section class="section photo-showcase">
-        <div class="container">
-          <div class="slider" aria-label="גלריית תמונות שירות מקצועי">
-            <div class="slider-track">
-              <article class="slide active">
-                <img src="pexels-enis-yavuz-3516387-5260115.jpg" alt="טכנאי צמיגים מקצועי מחליף צמיג ברכב" />
-              </article>
-              <article class="slide">
-                <img src="pexels-gustavo-fring-6870311.jpg" alt="החלפת צמיגים במוסך מקצועי" />
-              </article>
-              <article class="slide">
-                <img src="pexels-gustavo-fring-6870322.jpg" alt="טכנאי מציג צמיג חדש בזמן השירות" />
-              </article>
-              <article class="slide">
-                <img src="pexels-gustavo-fring-6870330.jpg" alt="בעלי רכב מקבלים שירות צמיגים נייד" />
-              </article>
-              <article class="slide">
-                <img src="pexels-gustavo-fring-6870331.jpg" alt="צמיגים מונחים מוכן להתקנה" />
-              </article>
-            </div>
-
-            <button class="slider-arrow slider-prev" type="button" aria-label="תמונה קודמת">‹</button>
-            <button class="slider-arrow slider-next" type="button" aria-label="תמונה הבאה">›</button>
-
-            <div class="slider-dots" role="tablist">
-              <button class="slider-dot active" type="button" aria-label="תמונה 1"></button>
-              <button class="slider-dot" type="button" aria-label="תמונה 2"></button>
-              <button class="slider-dot" type="button" aria-label="תמונה 3"></button>
-              <button class="slider-dot" type="button" aria-label="תמונה 4"></button>
-              <button class="slider-dot" type="button" aria-label="תמונה 5"></button>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section id="services" class="section services">
         <div class="container">
           <header class="section-header">
-            <h2>שירות צמיגים מלא לנהגים באזור</h2>
-            <p class="section-sub">תיקון פנצ'ר, החלפת צמיגים, איזון גלגלים וכיוון פרונט בלי הפתעות.</p>
+            <h2>השירותים שלנו</h2>
+            <p class="section-sub">בצמיגי עקיבא אנו מספקים מגוון שירותי צמיגים מקצועיים לכל סוגי הרכב – החל מתיקון פנצ'רים והחלפת צמיגים ועד איזון גלגלים, כיוון פרונט וניידת שירות המגיעה עד אליכם.</p>
           </header>
 
           <div class="grid services-grid">
             <article class="card service-card">
-              <div class="icon" aria-hidden="true">🛞</div>
-              <h3>תיקון פנצ'ר מהיר</h3>
-              <p>אנחנו מוצאים את הפנצ'ר ומתקנים אותו במקום, בחנייה או בדרך, בלי לעבוד עליכם.</p>
+              <div class="icon service-icon service-icon-repair" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 18h16v2H4v-2Zm16-7.5c0 1.38-1.12 2.5-2.5 2.5S15 12.88 15 11.5 16.12 9 17.5 9 20 10.12 20 11.5Zm-11 0C9 12.88 7.88 14 6.5 14S4 12.88 4 11.5 5.12 9 6.5 9 9 10.12 9 11.5Zm10-3h-2.25L14.3 5.2c-.18-.32-.52-.5-.9-.5H10.6c-.38 0-.72.18-.9.5L8.75 8.5H6.5c-.83 0-1.5.67-1.5 1.5v3.5c0 .83.67 1.5 1.5 1.5h11c.83 0 1.5-.67 1.5-1.5V9c0-.83-.67-1.5-1.5-1.5Zm-4.5 8h-3v-1h3v1Zm-1.5-4a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" fill="currentColor"/></svg>
+              </div>
+              <h3>תיקון פנצ'רים מקצועי</h3>
+              <p>תיקון צמיגים במוסך שלנו לפי שיטות תקניות, עם דגש על בטיחות ותיקון איכותי שיחזיר אתכם לדרך בראש שקט.</p>
             </article>
             <article class="card service-card">
-              <div class="icon" aria-hidden="true">🔄</div>
+              <div class="icon service-icon service-icon-replace" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 3h12a2 2 0 0 1 2 2v2h-2V5H6v14h12v-2h2v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Zm2 6h8v2H8V9Zm0 4h5v2H8v-2Zm3 7V21H9v-1h2Z" fill="currentColor"/></svg>
+              </div>
               <h3>החלפת צמיגים</h3>
-              <p>החלפה בטוחה ועדינה של צמיגים קיימים או חדשים, כולל הרכבה ונעילה לפי תקן.</p>
+              <p>מותגי צמיגים מובילים, ייעוץ מקצועי והרכבה מדויקת כדי להבטיח נהיגה בטוחה, ביצועים טובים יותר ותמורה לטווח ארוך.</p>
             </article>
             <article class="card service-card">
-              <div class="icon" aria-hidden="true">⚖️</div>
-              <h3>איזון גלגלים</h3>
-              <p>איזון מקצועי שמוריד רטט, משפר חיסכון ועוזר לצמיגים להחזיק יותר זמן.</p>
+              <div class="icon service-icon service-icon-balance" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 13h16v-2H4v2Zm2 3h12v-2H6v2Zm0-8h12V6H6v2Zm-2 9h16v-2H4v2Z" fill="currentColor"/></svg>
+              </div>
+              <h3>איזון וכיוון גלגלים</h3>
+              <p>שיפור הנסיעה, יציבות טובה יותר ופחות שחיקת צמיגים – עבודה מקצועית שאורכת את חיי הצמיגים ומשפרת את תחושת הבטיחות.</p>
             </article>
             <article class="card service-card">
-              <div class="icon" aria-hidden="true">🧭</div>
-              <h3>כיוון פרונט</h3>
-              <p>ייצוב ההיגוי שלכם בכביש — כדי לאתר ״משיכה״ או שחיקה לא אחידה של הצמיגים.</p>
+              <div class="icon service-icon service-icon-mobile" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Zm0 18H6V4h12v16Zm-7-3h2v1h-2v-1Zm1-13c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1Z" fill="currentColor"/></svg>
+              </div>
+              <h3>ניידת שירות</h3>
+              <p>נגיע לבית, לעבודה או לצד הדרך לתיקון פנצ'ר והחלפת צמיגים. שירות נייד מקצועי שמאפשר לכם לחזור לשגרה בלי לסגור מוסך.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="why" class="section why">
+      <section id="trusted-brands" class="section brands">
         <div class="container">
           <header class="section-header">
-            <h2>לחזור לדרך בלי הפתעות</h2>
-            <p class="section-sub">הבהרה פשוטה, מחיר שקוף, עבודה בטיחותית.</p>
+            <h2>עובדים עם המותגים המובילים בעולם</h2>
+            <p class="section-sub">אנחנו עובדים עם יצרני הצמיגים המובילים והאיכותיים בעולם כדי להבטיח לכם בטיחות, ביצועים ואמינות ללא פשרות.</p>
           </header>
 
-          <div class="trust-grid">
-            <div class="trust-card">
-              <h3>אין מכירת צמיגים מיותרת</h3>
-              <p>נציע החלפה רק אם התיקון אינו בטיחותי. קודם נבדוק, אחר כך נפעל.</p>
-            </div>
-            <div class="trust-card">
-              <h3>אותם אנשים, אותה הדרך</h3>
-              <p>כל לקוח מקבל הסבר ברור על התקלה, הוצאה משוערת והמלצה שקופה.</p>
-            </div>
-            <div class="trust-card">
-              <h3>אחריות על העבודה</h3>
-              <p>חיבור הצמיגים נעשה לפי תקן. נבדוק לחץ, איזון ויציבות לפני נסיעה.</p>
-            </div>
-            <div class="trust-card">
-              <h3>שירות גם נייד</h3>
-              <p>מחפשים שירות צמיגים בחנייה, בבית או בדרך? אנחנו מגיעים במצב שבו זה נוח לכם.</p>
+          <div class="brand-carousel-wrapper">
+            <div class="brand-carousel" aria-label="מותגי צמיגים מובילים">
+              <div class="brand-carousel-track">
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#002a5c"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="16" fill="#fff">MICHELIN</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#d61816"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="16" fill="#fff">YOKOHAMA</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#ffdc21"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="16" fill="#111">DUNLOP</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#d40f21"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="16" fill="#fff">FULDA</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#003366"/><path d="M18 34h8l5-8h18l6 8h8l-9-14 8-12h-8l-6 9h-18l-5-9h-8l9 14-9 12Z" fill="#ffd200"/><text x="110" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="14" fill="#fff">GOODYEAR</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#ffcc00"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="14" fill="#111">CONTINENTAL</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#1f1f1f"/><path d="M38 16h8l10 20h-8l-10-20Zm24 0h8l-6 12 6 8h-8l-4-6-4 6h-8l6-8-6-12h8l4 6 4-6Z" fill="#d7132a"/><text x="112" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="14" fill="#fff">BRIDGESTONE</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#c8102e"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="16" fill="#fff">PIRELLI</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#ff6d00"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="15" fill="#111">HANKOOK</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#000"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="16" fill="#fff">TOYO TIRES</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#e30014"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="16" fill="#fff">KUMHO</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#0069b4"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="16" fill="#fff">NEXEN</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#002a5c"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="16" fill="#fff">MICHELIN</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#d61816"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="16" fill="#fff">YOKOHAMA</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#ffdc21"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="16" fill="#111">DUNLOP</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#d40f21"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="16" fill="#fff">FULDA</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#003366"/><path d="M18 34h8l5-8h18l6 8h8l-9-14 8-12h-8l-6 9h-18l-5-9h-8l9 14-9 12Z" fill="#ffd200"/><text x="110" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="14" fill="#fff">GOODYEAR</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#ffcc00"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="14" fill="#111">CONTINENTAL</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#1f1f1f"/><path d="M38 16h8l10 20h-8l-10-20Zm24 0h8l-6 12 6 8h-8l-4-6-4 6h-8l6-8-6-12h8l4 6 4-6Z" fill="#d7132b"/><text x="114" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="14" fill="#fff">BRIDGESTONE</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#c8102e"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="16" fill="#fff">PIRELLI</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#ff6d00"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="15" fill="#111">HANKOOK</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#000"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="16" fill="#fff">TOYO TIRES</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#e30014"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="16" fill="#fff">KUMHO</text></svg></div>
+                <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#0069b4"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="16" fill="#fff">NEXEN</text></svg></div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="process" class="section process">
-        <div class="container">
-          <header class="section-header">
-            <h2>איך זה עובד</h2>
-            <p class="section-sub">כל צעד ברור, פשוט ושקוף.</p>
-          </header>
+      <section id="about" class="section about">
+        <div class="container about-intro-grid">
+          <div class="about-copy reveal">
+            <header class="section-header">
+              <h2>אודות צמיגי עקיבא</h2>
+              <p class="section-sub">פנצ'רייה משפחתית שמבינה את הדרך להרגיש בטוח על הכביש.</p>
+            </header>
 
-          <div class="process-grid">
-            <article class="process-step">
-              <span>1</span>
-              <h3>ספרו מה קרה</h3>
-              <p>חייגו או שלחו WhatsApp. נספר לכם מה להביא ונעדכן זמן הגעה.</p>
-            </article>
-            <article class="process-step">
-              <span>2</span>
-              <h3>אנחנו מגיעים ובודקים</h3>
-              <p>נבחן את הצמיג, נאתר את הבעיה ונגיד לכם בדיוק מה צריך לעשות.</p>
-            </article>
-            <article class="process-step">
-              <span>3</span>
-              <h3>מדליקים ויוצאים לדרך</h3>
-              <p>נחבר, נאזן ונבדוק את הלחץ. אתם מקבלים רכב מוכן לנסיעה בדרך בטוחה.</p>
-            </article>
+            <p>צמיגי עקיבא בזכרון יעקב מספקת שירות צמיגים מלא לנהגים, עם תשומת לב אמיתית לרכב ולנסיעה. כאן מטפלים בכל רכב פרטי ומשפחתי, ומוודאים שהנסיעה הבאה תהיה חלקה ובטוחה.</p>
+
+            <p>בעלים דור עקיבא עומד מאחורי כל תיקון. הוא מגיע אל הלקוח, מקשיב לפרטים ומסביר מה עושה טוב לעומת מה ניתן לדחות. בדרך הזאת אנחנו בוחרים את הפתרון הנכון ולא את היקר ביותר.</p>
+
+            <p>הלקוחות שלנו סומכים עלינו בגלל מומחיות בשטח, המלצות כנות, עבודה מדויקת ומותגי צמיגים מובילים. אין כאן המלצה נוחה—יש המלצה שמבוססת על מה שהרכב באמת צריך.</p>
+
+            <p>ניידת השירות שלנו מגיעה הביתה, לעבודה או לצד הדרך עם ציוד מקצועי וזמינות מהירה. כך גם בשטח וגם בסדנה נשארת אותה גישה אישית ובעלים שמכיר כל לקוח בשמו.</p>
+
+            <div class="owner-card">
+              <div class="owner-avatar">
+                <img src="ChatGPT Image Aug 4, 2026, 01_25_58 PM.png" alt="דור עקיבא, בעלים של צמיגי עקיבא" loading="lazy" />
+              </div>
+              <div class="owner-details">
+                <p class="owner-role">דור עקיבא</p>
+                <p class="owner-title">בעלים</p>
+                <p class="owner-quote">"השירות מתחיל ביושר, מקצועיות ויחס אישי. כל לקוח מקבל את הפתרון הנכון לו — לא רק את היקר."</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-visual reveal">
+            <div class="about-main-image">
+              <img src="shop-interior.png" alt="פנים בית העסק של צמיגי עקיבא בזכרון יעקב" loading="lazy" />
+            </div>
+
+            <div class="about-secondary-image">
+              <img src="mobile-van.png" alt="ניידת שירות של צמיגי עקיבא עם ציוד מקצועי לתיקון בצד הדרך" loading="lazy" />
+            </div>
           </div>
         </div>
       </section>
@@ -220,43 +227,50 @@
       <section id="reviews" class="section reviews">
         <div class="container">
           <header class="section-header">
-            <h2>לקוחות שממליצים</h2>
+            <h2>ביקורות מ-Google</h2>
+            <p class="section-sub">לקוחות שקיבלו שירות וממליצים על מהירות, אמינות ואיכות העבודה.</p>
           </header>
 
           <div class="grid review-grid">
             <article class="card review-card">
-              <p class="quote">"הגיעו במהירות, תיקנו את הפנצ'ר והסבירו בדיוק מה עושים. שירות אמין בלי הרבה מילים."</p>
-              <strong>עידו, זכרון יעקב</strong>
+              <div class="review-stars">★★★★★</div>
+              <p class="review-source">יואל גדנאו — 4 ביקורות</p>
+              <p class="quote">"חברה 10/10. מחירים הוגנים. הגיעו מהר, החליפו צמיגים וכיוונו פרונט בדיוק. ממליץ בחום."</p>
             </article>
             <article class="card review-card">
-              <p class="quote">"החליפו צמיג בחנייה שלנו ונתנו טיפים אמיתיים. הרכב נסע חלק מיד אחרי האיזון."</p>
-              <strong>רונית, בנימינה</strong>
+              <div class="review-stars">★★★★★</div>
+              <p class="review-source">ניב בן אליהו — 8 ביקורות</p>
+              <p class="quote">"מקצוענים אמיתיים. מצאו לי פנצ'ר שאף אחד אחר לא מצא, והציעו תיקון חכם במקום החלפה מיותרת. שירות מהיר ואדיב."</p>
+            </article>
+            <article class="card review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-source">Sergey Polski — 5 ביקורות</p>
+              <p class="quote">"ביום שישי האחרון עשיתי רוטציה לצמיגים ברכב שלי. קיבלתי שירות מצוין ואדיב, ויצאתי תוך רבע שעה עם איזון לכל הגלגלים."</p>
+            </article>
+            <article class="card review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-source">Shaul Oren — 6 ביקורות</p>
+              <p class="quote">"שירות מצוין ואדיב, מכון כיוון פרונט ברמה גבוהה. הצוות נחמד ומקצועי, מומלץ מאוד."</p>
+            </article>
+            <article class="card review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-source">Oded Rotter — 58 ביקורות</p>
+              <p class="quote">"בדיקה מהירה, אבחון מדויק, אנשים נחמדים, מחיר סביר, נקי ומסודר."</p>
+            </article>
+            <article class="card review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-source">Ben — 4 ביקורות</p>
+              <p class="quote">"עסק משפחתי אמין. הגעתי להחלפת צמיגים והתחייבו על מחיר הוגן, עבודה מקצועית ומהירה, ואיזון על חשבון הבית."</p>
             </article>
           </div>
-        </div>
-      </section>
 
-      <section id="coverage" class="section coverage">
-        <div class="container">
-          <header class="section-header">
-            <h2>איפה אנחנו עובדים</h2>
-            <p class="section-sub">שירות צמיגים ומהירות תגובה באזור זכרון יעקב והסביבה.</p>
-          </header>
-
-          <div class="coverage-copy">
-            <p>נגיע לנקודות קרובות, בחנייה ציבורית, בבית עסק או בכניסה לחנייה הפרטית שלכם. שירות צמיגים אמיתי באזור.</p>
-          </div>
-
-          <div class="coverage-list">
-            <span>זכרון יעקב</span>
-            <span>בנימינה</span>
-            <span>פרדס חנה</span>
-            <span>אור עקיבא</span>
-            <span>חדרה</span>
-            <span>קיסריה</span>
+          <div class="reviews-footer">
+            <p>רוצה לשתף בחוויה? כתבו ביקורת ב-Google אם קיבלתם שירות ומרוצים.</p>
+            <a class="button button-primary" href="https://www.google.com/maps/place/%D7%A6%D7%9E%D7%99%D7%92%D7%99+%D7%A2%D7%A7%D7%99%D7%91%D7%90%E2%80%AD/@32.5714016,34.9406616,16z/data=!4m14!1m7!3m6!1s0x151d0be51d9f19fb:0xafca3cc740c69a6!2z16bXnteZ15LXmSDXoten15nXkdeQ!8m2!3d32.5714016!4d34.938092!16s%2Fg%2F11h24spb4v!3m5!1s0x151d0be51d9f19fb:0xafca3cc740c69a6!8m2!3d32.5714016!4d34.938092!16s%2Fg%2F11h24spb4v?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noreferrer">כתבו ביקורת ב-Google</a>
           </div>
         </div>
       </section>
+
 
       <section id="faq" class="section faq">
         <div class="container">
@@ -320,10 +334,6 @@
         </nav>
       </div>
     </footer>
-
-    <!-- Floating actions -->
-    <a class="floating-whatsapp" href="https://wa.me/972506658570" aria-label="שלחו וואטסאפ" target="_blank" rel="noreferrer">💬</a>
-    <a class="floating-call" href="tel:0506658570" aria-label="התקשרו" rel="noreferrer">📞</a>
 
     <script src="script.js" defer></script>
   </body>
