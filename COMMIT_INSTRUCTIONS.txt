@@ -1,0 +1,25 @@
+Git commit instructions
+
+This environment doesn't have Git available. To commit the redesign locally, run the following in PowerShell from the project root:
+
+1) If you haven't installed Git, get it here: https://git-scm.com
+
+2) Run the helper script included in this repo:
+
+powershell -ExecutionPolicy Bypass -File .\commit_changes.ps1
+
+3) Or run the commands manually:
+
+git init
+git add -A
+git commit -m "Redesign: premium landing — dark premium UI, improved SEO/OG, accessibility, optimized assets"
+
+Notes:
+- If Git prompts for user.name/email, configure them locally:
+  git config user.name "Your Name"
+  git config user.email "you@example.com"
+
+- After committing, push to your remote with:
+  git remote add origin <your-remote-url>
+  git push -u origin main
+
