@@ -1128,7 +1128,6 @@ textarea {
   display: block;
   object-fit: contain;
   object-position: center;
-  transition: transform 450ms ease;
 }
 
 .about-business-image img {
