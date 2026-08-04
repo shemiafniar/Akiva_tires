@@ -45,6 +45,23 @@ git remote add origin $remoteUrl
 
 git branch -M main
 
+Write-Output 'Fetching remote main branch...'
+git fetch origin main 2>&1
+if ($LASTEXITCODE -ne 0) {
+  Write-Error 'Git fetch failed. Please verify the remote URL and your network connection.'
+  exit $LASTEXITCODE
+}
+
+$remoteMain = git rev-parse --verify origin/main 2>$null
+if ($LASTEXITCODE -eq 0) {
+  Write-Output 'Remote main branch exists. Rebasing local changes on top of origin/main...'
+  git pull --rebase origin main --allow-unrelated-histories 2>&1
+  if ($LASTEXITCODE -ne 0) {
+    Write-Error 'Git pull --rebase failed. Resolve conflicts manually, then rerun the script.'
+    exit $LASTEXITCODE
+  }
+}
+
 $pushStatus = git push -u origin main 2>&1
 if ($LASTEXITCODE -ne 0) {
   Write-Error "Git push failed."
