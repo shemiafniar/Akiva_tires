@@ -996,14 +996,17 @@ textarea {
 }
 
 .owner-portrait {
-  width: min(100%, 250px);
-  aspect-ratio: 1 / 1.13;
-  margin-inline: auto;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 2px solid rgba(255,255,255,.18);
-  background: transparent;
-  box-shadow: 0 20px 40px rgba(0,0,0,.35);
+    width: min(100%, 250px);
+    aspect-ratio: 1 / 1.13;
+    margin-inline: auto;
+
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    border-radius: 50%;
+    overflow: hidden;
+
+    background: transparent;
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
 }
 
 .owner-portrait img {
