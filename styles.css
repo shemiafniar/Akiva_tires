@@ -1003,7 +1003,7 @@ textarea {
   overflow: hidden;
   border: none;
   background: transparent;
-  box-shadow: 0 20px 40px rgba(0,0,0,.35)
+  box-shadow: 0 20px 40px rgba(0,0,0,.35);
 }
 
 .owner-portrait img {
