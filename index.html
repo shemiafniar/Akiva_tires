@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>צמיגי עקיבא | צמיגים בזכרון יעקב — פנצ'ר, החלפה, איזון גלגלים</title>
     <meta name="description" content="צמיגי עקיבא בזכרון יעקב — שירות צמיגים נייד וזמין: תיקון פנצ'ר, החלפת צמיגים, איזון גלגלים וכיוון פרונט. שירות מהיר גם בבנימינה, חדרה, אור עקיבא וקיסריה." />
-    <link rel="canonical" href="https://akivatires.co.il/" />
+    <link rel="canonical" href="https://shemiafniar.github.io/Akiva_tires/" />
     <meta name="robots" content="index,follow" />
 
     <!-- Open Graph / Twitter -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="צמיגי עקיבא — שירות צמיגים נייד בזכרון יעקב" />
     <meta property="og:description" content="תיקון פנצ'ר, החלפת צמיגים, איזון גלגלים וכיוון פרונט באזור זכרון יעקב והסביבה. חייגו עכשיו או שלחו WhatsApp." />
-    <meta property="og:image" content="https://akivatires.co.il/assets/og.png" />
+    <meta property="og:url" content="https://shemiafniar.github.io/Akiva_tires/" />
+    <meta property="og:image" content="https://shemiafniar.github.io/Akiva_tires/assets/og.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="https://akivatires.co.il/assets/og.png" />
+    <meta name="twitter:image" content="https://shemiafniar.github.io/Akiva_tires/assets/og.png" />
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=Rubik:wght@600;700;800&display=swap" rel="stylesheet">
@@ -29,16 +30,29 @@
       "@context": "https://schema.org",
       "@type": "AutoRepair",
       "name": "צמיגי עקיבא בע\"מ",
-      "url": "https://akivatires.co.il",
+      "url": "https://shemiafniar.github.io/Akiva_tires/",
       "telephone": "+972506658570",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "זכרון יעקב",
         "addressCountry": "IL"
       },
-      "image": "https://akivatires.co.il/assets/logo.png",
+      "image": "https://shemiafniar.github.io/Akiva_tires/assets/logo.png",
       "priceRange": "$$",
-      "openingHours": "Mo-Fr 08:00-20:00, Sa 08:00-14:00, Su by appointment"
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+          "opens": "07:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "07:00",
+          "closes": "13:00"
+        }
+      ]
     }
     </script>
     <link
@@ -97,11 +111,16 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
         <div class="container hero-content">
           <h1>הדרך הבטוחה מתחילה בצמיגים הנכונים.</h1>
-          <p class="lead">ניסיון, איכות ושירות ללא פשרות – עם מותגי הצמיגים המובילים ופתרונות מקצועיים לכל צורך.</p>
+          <p class="lead">שירות מקצועי והוגן, התאמה מדויקת לרכב ומבחר צמיגים איכותיים — בפנצ׳רייה או עד אליכם.</p>
+
+          <div class="hero-actions" aria-label="יצירת קשר מהירה">
+            <a class="button button-primary hero-cta" href="tel:0506658570"><i class="fa-solid fa-phone" aria-hidden="true"></i> התקשרו עכשיו</a>
+            <a class="button button-whatsapp hero-cta" href="https://wa.me/972506658570?text=%D7%94%D7%99%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A7%D7%91%D7%9C%20%D7%A4%D7%A8%D7%98%D7%99%D7%9D%20%D7%A2%D7%9C%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%20%D7%A6%D7%9E%D7%99%D7%92%D7%99%D7%9D" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> שלחו וואטסאפ</a>
+          </div>
 
           <div class="hero-badges">
-            <span>🛞איזון, כיוון פרונט והתקנה ברמה הגבוהה ביותר🛞</span>
-            <span>🛞התאמה מקצועית לכל סוגי הרכב🛞</span>
+            <span><b aria-hidden="true">✓</b> איזון גלגלים, כיוון פרונט והתקנה מקצועית</span>
+            <span><b aria-hidden="true">✓</b> התאמה נכונה לכל סוגי הרכב</span>
           </div>
         </div>
       </section>
@@ -132,15 +151,15 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
               <div class="icon service-icon service-icon-balance" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 13h16v-2H4v2Zm2 3h12v-2H6v2Zm0-8h12V6H6v2Zm-2 9h16v-2H4v2Z" fill="currentColor"/></svg>
               </div>
-              <h3>איזון וכיוון גלגלים</h3>
-              <p>שיפור הנסיעה, יציבות טובה יותר ופחות שחיקת צמיגים – עבודה מקצועית שאורכת את חיי הצמיגים ומשפרת את תחושת הבטיחות.</p>
+              <h3>איזון גלגלים וכיוון פרונט</h3>
+              <p>שיפור הנסיעה, יציבות טובה יותר ופחות שחיקת צמיגים — עבודה מקצועית שמאריכה את חיי הצמיגים ומשפרת את תחושת הבטיחות.</p>
             </article>
             <article class="card service-card">
               <div class="icon service-icon service-icon-mobile" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Zm0 18H6V4h12v16Zm-7-3h2v1h-2v-1Zm1-13c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1Z" fill="currentColor"/></svg>
               </div>
               <h3>ניידת שירות</h3>
-              <p>נגיע לבית, לעבודה או לצד הדרך לתיקון פנצ'ר והחלפת צמיגים. שירות נייד מקצועי שמאפשר לכם לחזור לשגרה בלי לסגור מוסך.</p>
+              <p>נגיע לבית, לעבודה או לצד הדרך לתיקון פנצ׳ר ולהחלפת צמיגים. שירות נייד מקצועי שמאפשר לכם לחזור לדרך בלי להגיע למוסך.</p>
             </article>
           </div>
         </div>
@@ -150,10 +169,17 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         <div class="container">
           <header class="section-header">
             <h2>עובדים עם המותגים המובילים בעולם</h2>
-            <p class="section-sub">אנחנו עובדים עם יצרני הצמיגים המובילים והאיכותיים בעולם כדי להבטיח לכם בטיחות, ביצועים ואמינות ללא פשרות.</p>
+            <p class="section-sub">מגוון מותגים איכותיים, בהתאמה לסוג הרכב, לאופי הנסיעה ולתקציב שלכם.</p>
           </header>
 
-          <div class="brand-carousel-wrapper">
+          <div class="official-brand-grid" aria-label="מבחר ממותגי הצמיגים שלנו">
+            <div class="official-brand-card"><img src="assets/brands/michelin.svg" alt="Michelin" loading="lazy"></div>
+            <div class="official-brand-card"><img src="assets/brands/goodyear.svg" alt="Goodyear" loading="lazy"></div>
+            <div class="official-brand-card"><img src="assets/brands/bridgestone.svg" alt="Bridgestone" loading="lazy"></div>
+            <div class="official-brand-card"><img src="assets/brands/dunlop.svg" alt="Dunlop" loading="lazy"></div>
+          </div>
+
+          <div class="brand-carousel-wrapper" hidden>
             <div class="brand-carousel" aria-label="מותגי צמיגים מובילים">
               <div class="brand-carousel-track">
                 <div class="brand-item"><svg class="brand-mark" viewBox="0 0 160 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="160" height="52" rx="20" fill="#002a5c"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700" font-size="16" fill="#fff">MICHELIN</text></svg></div>
@@ -186,7 +212,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         </div>
       </section>
 
-      <section id="about" class="section about">
 <section id="about" class="section about">
   <div class="container">
 
@@ -202,7 +227,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
       <div class="about-owner-layout">
         <div class="owner-portrait">
           <img
-            src="ChatGPT Image Aug 4, 2026, 01_25_58 PM.png"
+            src="dor-akiva.png"
             alt="דור עקיבא, בעלים של צמיגי עקיבא"
             loading="lazy"
           />
@@ -296,8 +321,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
       <section id="reviews" class="section reviews">
         <div class="container">
           <header class="section-header">
-            <h2>ביקורות מ-Google</h2>
-            <p class="section-sub">לקוחות שקיבלו שירות וממליצים על מהירות, אמינות ואיכות העבודה.</p>
+            <h2>לקוחות מספרים עלינו</h2>
+            <p class="section-sub">ביקורות של לקוחות מתוך עמוד העסק ב־Google.</p>
           </header>
 
           <div class="grid review-grid">
@@ -334,7 +359,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
           </div>
 
           <div class="reviews-footer">
-            <p>רוצה לשתף בחוויה? כתבו ביקורת ב-Google אם קיבלתם שירות ומרוצים.</p>
+            <p>קיבלתם שירות והייתם מרוצים? נשמח שתשתפו בחוויה שלכם ב־Google.</p>
             <a class="button button-primary" href="https://www.google.com/maps/place/%D7%A6%D7%9E%D7%99%D7%92%D7%99+%D7%A2%D7%A7%D7%99%D7%91%D7%90%E2%80%AD/@32.5714016,34.9406616,16z/data=!4m14!1m7!3m6!1s0x151d0be51d9f19fb:0xafca3cc740c69a6!2z16bXnteZ15LXmSDXoten15nXkdeQ!8m2!3d32.5714016!4d34.938092!16s%2Fg%2F11h24spb4v!3m5!1s0x151d0be51d9f19fb:0xafca3cc740c69a6!8m2!3d32.5714016!4d34.938092!16s%2Fg%2F11h24spb4v?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noreferrer">כתבו ביקורת ב-Google</a>
           </div>
         </div>
@@ -365,14 +390,22 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
       </div>
 
       <div class="contact-card">
+        <h3>כל הדרכים להגיע אלינו</h3>
+        <p class="contact-intro">צריכים עזרה? התקשרו או שלחו הודעה ונבדוק יחד את הפתרון המתאים.</p>
+
+        <div class="contact-actions">
+          <a class="btn contact-call" href="tel:0506658570"><i class="fa-solid fa-phone" aria-hidden="true"></i> 050-6658570</a>
+          <a class="btn contact-whatsapp" href="https://wa.me/972506658570?text=%D7%94%D7%99%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A7%D7%91%D7%9C%20%D7%A4%D7%A8%D7%98%D7%99%D7%9D%20%D7%A2%D7%9C%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%20%D7%A6%D7%9E%D7%99%D7%92%D7%99%D7%9D" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> שלחו וואטסאפ</a>
+          <a class="btn contact-nav" href="https://www.google.com/maps/dir/?api=1&destination=32.5714016,34.938092" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-location-arrow" aria-hidden="true"></i> ניווט ב־Google Maps</a>
+        </div>
+
+        <dl class="contact-details">
           <div>
-            <dt><h4>איך מגיעים?</h4></dt>
+            <dt>איך מגיעים?</dt>
             <dd>כביש 4, בסמוך לתחנת הדלק בכניסה לזכרון יעקב</dd>
           </div>
         </dl>
-        <dt><h4>דברו איתנו!</h4></h4></dt>
-            <dd>050-6658570</dd>
-            <dd>זמינים גם בוואטסאפ</dd>
+
         <div class="opening-hours">
           <h4>שעות פעילות</h4>
 
@@ -429,9 +462,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     <footer class="site-footer">
       <div class="container footer-inner">
         <small>© <span id="year">2026</span> צמיגי עקיבא בע"מ — כל הזכויות שמורות</small>
-        <nav aria-label="Footer">
-          <a href="#privacy">מדיניות פרטיות</a>
-        </nav>
       </div>
     </footer>
 

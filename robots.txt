@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://akivatires.co.il/sitemap.xml
+Sitemap: https://shemiafniar.github.io/Akiva_tires/sitemap.xml
